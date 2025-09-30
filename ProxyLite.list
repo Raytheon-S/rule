@@ -4,8 +4,6 @@
 DOMAIN-SUFFIX,dl.tailscale.com
 
 # 域名关键字匹配
-DOMAIN-KEYWORD,1e100
-DOMAIN-KEYWORD,copilot
 DOMAIN-KEYWORD,unsplash
 
 # IP段匹配
