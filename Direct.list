@@ -20,7 +20,7 @@ PROCESS-NAME,tailscaled
 
 # IP段匹配
 #示例 IP-CIDR,223.5.5.5/32,no-resolve
-
+IP-CIDR,100.10.1.0/24,no-resolve
 # 国内DNS
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
