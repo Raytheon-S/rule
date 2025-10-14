@@ -14,7 +14,7 @@ DOMAIN-SUFFIX,apple.com
 # 域名关键字匹配
 DOMAIN-KEYWORD,synology
 DOMAIN-KEYWORD,quickconnect
-
+DOMAIN-KEYWORD,apple
 # 进程匹配
 PROCESS-NAME,tailscaled
 
