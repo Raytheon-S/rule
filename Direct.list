@@ -12,7 +12,7 @@ DOMAIN-KEYWORD,synology
 DOMAIN-KEYWORD,quickconnect
 DOMAIN-KEYWORD,apple
 DOMAIN-KEYWORD,icloud
-DOMAIN-KEYWORD,speedtest
+# DOMAIN-KEYWORD,speedtest
 DOMAIN-KEYWORD,yundcm
 
 # 进程匹配
