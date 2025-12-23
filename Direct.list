@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,quickconnect.to
 DOMAIN-SUFFIX,myds.me
 DOMAIN-SUFFIX,cn.download.nvidia.com
+DOMAIN-SUFFIX,cdn.gaijin.net
 
 # 域名关键字匹配
 DOMAIN-KEYWORD,synology
