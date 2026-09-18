@@ -1,2 +1,17 @@
-DOMAIN,copilot.microsoft.com
+# Copilot 核心运行时
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,m365.cloud.microsoft
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,api.bing.com
+DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
+
+# 登录服务（建议代理）
+DOMAIN-SUFFIX,login.microsoftonline.com
+DOMAIN-SUFFIX,login.live.com
+DOMAIN-SUFFIX,login.microsoft.com
+DOMAIN-SUFFIX,graph.microsoft.com
+
+# 更新服务（可选）
+# DOMAIN-SUFFIX,edge.microsoft.com
+# DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
