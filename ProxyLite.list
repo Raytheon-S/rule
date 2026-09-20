@@ -30,6 +30,32 @@ IP-CIDR,185.222.222.222/32,no-resolve
 IP-CIDR,208.67.222.222/32,no-resolve
 IP-CIDR,208.67.220.220/32,no-resolve
 
+
+# 1. Gemini API / SDK 运行时 (Google AI Studio)
+DOMAIN,generativelanguage.googleapis.com   # 核心模型推理与 Live API (WebSocket)
+DOMAIN,files.googleapis.com                # 大文件/多模态上下文上传
+DOMAIN,oauth2.googleapis.com               # 鉴权与 OAuth2
+DOMAIN,www.googleapis.com                  # 公共 API 支持
+
+# 2. Enterprise / Vertex AI 运行时 (Google Cloud)
+DOMAIN,aiplatform.googleapis.com                      # Vertex AI 平台全局入口
+DOMAIN-KEYWORD,aiplatform.googleapis.com              # 匹配区域化端点 (如 us-central1-aiplatform...)
+DOMAIN,iam.googleapis.com                             # GCP 权限管理
+DOMAIN,cloudresourcemanager.googleapis.com            # 资源管理
+
+# 3. Gemini Web 网页版 (gemini.google.com)
+DOMAIN,gemini.google.com                 # Gemini 网页版主站
+DOMAIN,jnn-pa.googleapis.com             # 网页后台交互 API
+DOMAIN,waa-pa.clients6.google.com        # 访问控制与验证
+DOMAIN-SUFFIX,gstatic.com                # 静态资源 (www.gstatic.com, fonts.gstatic.com)
+DOMAIN-SUFFIX,googleusercontent.com      # 图片、生成的多模态文件与用户头像
+
+# 4. Agent 工具 / CLI 联网扩展
+DOMAIN-SUFFIX,pkg.dev                      # Artifact Registry 依赖下载
+DOMAIN,play.googleapis.com                 # 官方依赖库
+DOMAIN,maps.googleapis.com                 # 地理解析 Tool
+
+
 # Copilot 核心运行时
 DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,copilot.cloud.microsoft
@@ -37,13 +63,11 @@ DOMAIN-SUFFIX,m365.cloud.microsoft
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,api.bing.com
 DOMAIN-SUFFIX,gateway.prod.island.powerapps.com
-
 # 登录服务（建议代理）
 DOMAIN-SUFFIX,login.microsoftonline.com
 DOMAIN-SUFFIX,login.live.com
 DOMAIN-SUFFIX,login.microsoft.com
 DOMAIN-SUFFIX,graph.microsoft.com
-
 # 更新服务（可选）
 # DOMAIN-SUFFIX,edge.microsoft.com
 # DOMAIN-SUFFIX,msedge.api.cdp.microsoft.com
