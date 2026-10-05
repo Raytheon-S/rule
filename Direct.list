@@ -36,3 +36,129 @@ IP-CIDR,223.6.6.6/32,no-resolve
 IP-CIDR,180.76.76.76/32,no-resolve
 IP-CIDR,114.114.114.114/32,no-resolve
 IP-CIDR,114.114.115.115/32,no-resolve
+
+#后续添加
+# LAN / 私有域
+DOMAIN,localhost
+DOMAIN-SUFFIX,lan
+DOMAIN-SUFFIX,localdomain
+DOMAIN-SUFFIX,example
+DOMAIN-SUFFIX,invalid
+DOMAIN-SUFFIX,localhost
+DOMAIN-SUFFIX,test
+DOMAIN-SUFFIX,local
+DOMAIN-SUFFIX,home.arpa
+DOMAIN-SUFFIX,direct
+DOMAIN-KEYWORD,_msdcs
+DOMAIN,router.asus.com
+
+# NTP
+DOMAIN,time1.cloud.tencent.com
+DOMAIN-SUFFIX,time.edu.cn
+DOMAIN-SUFFIX,ntp.org.cn
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN,ntp.tencent.com
+DOMAIN,ntp1.tencent.com
+DOMAIN,ntp2.tencent.com
+DOMAIN,ntp3.tencent.com
+DOMAIN,ntp4.tencent.com
+DOMAIN,ntp5.tencent.com
+DOMAIN,cn.pool.ntp.org
+
+# 运营商一键登录
+DOMAIN,id6.me
+DOMAIN,open.e.189.cn
+DOMAIN,hmrz.wo.cn
+DOMAIN,nishub1.10010.com
+DOMAIN,enrichgw.10010.com
+DOMAIN-SUFFIX,cmpassport.com
+DOMAIN-SUFFIX,wosms.cn
+
+# 金融/生活
+DOMAIN,app.yinxiang.com
+DOMAIN-SUFFIX,cmbchina.com
+DOMAIN-SUFFIX,cmbimg.com
+DOMAIN-SUFFIX,pingan.com.cn
+DOMAIN-SUFFIX,10099.com.cn
+DOMAIN-SUFFIX,microdone.cn
+DOMAIN-SUFFIX,jegotrip.com.cn
+
+# QQ/微信登录
+DOMAIN,localhost.ptlogin2.qq.com
+DOMAIN,localhost.sec.qq.com
+DOMAIN-KEYWORD,localhost
+DOMAIN-KEYWORD,weixin.qq.com
+
+# 网易云音乐
+DOMAIN,music.163.com
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,126.net
+
+# 百度音乐
+DOMAIN,music.taihe.com
+
+# 酷狗音乐
+DOMAIN,songsearch.kugou.com
+DOMAIN,trackercdn.kugou.com
+
+# 酷我音乐
+DOMAIN-SUFFIX,kuwo.cn
+
+# QQ音乐
+DOMAIN,y.qq.com
+DOMAIN,streamoc.music.tc.qq.com
+DOMAIN,mobileoc.music.tc.qq.com
+DOMAIN,isure.stream.qqmusic.qq.com
+DOMAIN,dl.stream.qqmusic.qq.com
+DOMAIN,aqqmusic.tc.qq.com
+DOMAIN-SUFFIX,y.qq.com
+
+# 虾米音乐
+DOMAIN-SUFFIX,xiami.com
+
+# 咪咕音乐
+DOMAIN,music.migu.cn
+DOMAIN-SUFFIX,music.migu.cn
+
+# 游戏国服
+DOMAIN,ff.dorado.sdo.com
+DOMAIN-SUFFIX,battlenet.com.cn
+DOMAIN-SUFFIX,wotgame.cn
+DOMAIN-SUFFIX,wggames.cn
+DOMAIN-SUFFIX,wowsgame.cn
+DOMAIN-SUFFIX,gcloudcs.com
+DOMAIN-SUFFIX,gcloudsdk.com
+DOMAIN-SUFFIX,blzstatic.cn
+DOMAIN-SUFFIX,ff14.sdo.com
+
+# Apple 软件更新（国内 CDN）
+DOMAIN,mesu.apple.com
+DOMAIN,swscan.apple.com
+DOMAIN,swdownload.apple.com
+DOMAIN,swcdn.apple.com
+DOMAIN,swdist.apple.com
+
+# Bilibili
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+
+# 迅雷
+DOMAIN-SUFFIX,sandai.net
+DOMAIN-SUFFIX,n0808.com
+
+# UU 加速器
+DOMAIN,ps.res.netease.com
+DOMAIN-SUFFIX,uu.163.com
+
+# 小米
+DOMAIN-SUFFIX,market.xiaomi.com
+
+# 花生壳
+DOMAIN-SUFFIX,oray.com
+DOMAIN-SUFFIX,orayimg.com
+
+# STUN 国内
+DOMAIN-KEYWORD,stun
+
+# Steam 国内 CDN
+DOMAIN,alibaba.cdn.steampipe.steamcontent.com
+
