@@ -2,7 +2,7 @@
 
 # 域名后缀匹配
 +.dl.tailscale.com
-+.unsplash
++.unsplash.com
 
 # 国外DNS
 +.dns.google
